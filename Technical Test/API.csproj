@@ -26,13 +26,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Contracts\" />
     <Folder Include="DTOs\ManagerLogistics\" />
     <Folder Include="DTOs\Company\" />
     <Folder Include="DTOs\Vendor\" />
     <Folder Include="DTOs\User\" />
     <Folder Include="DTOs\Project\" />
-    <Folder Include="Services\" />
   </ItemGroup>
 
 </Project>

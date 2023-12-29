@@ -1,6 +1,6 @@
 ﻿namespace Technical_Test.Contracts
 {
-    public interface IGeneralRepository
+    public interface ICompanyRepository
     {
     }
 }

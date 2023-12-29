@@ -1,6 +1,15 @@
-﻿namespace Technical_Test.Repositories
+﻿using Technical_Test.Contracts;
+using Technical_Test.Data;
+using Technical_Test.Models;
+
+namespace Technical_Test.Repositories
 {
-    public class ManagerLogisticsRepository
+    public class ManagerLogisticsRepository : GeneralRepository<ManagerLogistics>, IManagerRepository
+    {
+        public ManagerLogisticsRepository(BookingDbContext context) : base(context)
+        {
+        }
+    }
     {
     }
 }
