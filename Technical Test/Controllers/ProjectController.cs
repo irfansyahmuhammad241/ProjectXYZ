@@ -6,5 +6,6 @@ namespace Technical_Test.Controllers
     [Route("Api/Project")]
     public class ProjectController : ControllerBase
     {
+
     }
 }

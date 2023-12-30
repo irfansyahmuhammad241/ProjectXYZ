@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.25" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.0">
       <PrivateAssets>all</PrivateAssets>
@@ -23,14 +24,6 @@
     <PackageReference Include="MySql.EntityFrameworkCore" Version="6.0.21" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="DTOs\ManagerLogistics\" />
-    <Folder Include="DTOs\Company\" />
-    <Folder Include="DTOs\Vendor\" />
-    <Folder Include="DTOs\User\" />
-    <Folder Include="DTOs\Project\" />
   </ItemGroup>
 
 </Project>

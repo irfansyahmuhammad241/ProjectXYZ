@@ -4,11 +4,11 @@ using Technical_Test.Models;
 
 namespace Technical_Test.Repositories
 {
-    public class ProjectRepository : GeneralRepository<Project>, IProjectRepository
+    public class ProjectRepository 
     {
-        public ProjectRepository(BookingDbContext context) : base(context)
-        {
-        }
+        //public ProjectRepository(BookingDbContext context) : base(context)
+        //{
+        //}
     }
 
 }

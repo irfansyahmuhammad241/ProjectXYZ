@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "0uI9+/nAwx2afD+5uUm66YISds2ugb/CX22MQIgFVmQRWh1Ze6oXZCqsXjsi7wBjEUxgn13+pTQpl/WSBgIxMw==",
+  "dgSpecHash": "BRtL8F3Viub9ywEi3pxkWxbZnJCL04DHHc5wy5llZLbAiv+blnzU3d9Kf8LNfad4OMTBLaG/UC4UDK4ps9iVQw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Muhammad Irfansyah\\Desktop\\Project Technical Test 30 Desember 2023\\ProjectXYZ\\Technical Test\\API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Muhammad Irfansyah\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Muhammad Irfansyah\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\Muhammad Irfansyah\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\Muhammad Irfansyah\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",

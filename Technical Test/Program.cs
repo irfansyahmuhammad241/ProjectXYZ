@@ -4,6 +4,7 @@ using Technical_Test.Data;
 using Technical_Test.Models;
 using Technical_Test.Repositories;
 using Technical_Test.Services;
+using Technical_Test.Utilities.Handlers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,7 +19,7 @@ builder.Services.AddDbContext<BookingDbContext>(options => options.UseMySql(conn
 // Add Repository to the container
 builder.Services.AddScoped<ICompanyRepository, CompanyRepository>();
 builder.Services.AddScoped<IManagerLogistics, ManagerLogisticsRepository>();
-builder.Services.AddScoped<IProjectRepository, ProjectRepository>();
+//builder.Services.AddScoped<IProjectRepository, ProjectRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IVendorRepository, VendorRepository>();
 
@@ -29,14 +30,16 @@ builder.Services.AddScoped<ManagerLogisticsServices>();
 builder.Services.AddScoped<ProjectServices>();
 builder.Services.AddScoped<UserServices>();
 builder.Services.AddScoped<VendorServices>();
+builder.Services.AddScoped<AuthenticationServices>();
+
+// Add Token Handler
+builder.Services.AddScoped<ITokenHandler, TokenHandler>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
-
-
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

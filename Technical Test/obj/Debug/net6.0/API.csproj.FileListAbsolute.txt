@@ -267,3 +267,4 @@ C:\Users\Muhammad Irfansyah\Desktop\Project Technical Test 30 Desember 2023\Proj
 C:\Users\Muhammad Irfansyah\Desktop\Project Technical Test 30 Desember 2023\ProjectXYZ\Technical Test\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\Muhammad Irfansyah\Desktop\Project Technical Test 30 Desember 2023\ProjectXYZ\Technical Test\bin\Debug\net6.0\Mono.TextTemplating.dll
 C:\Users\Muhammad Irfansyah\Desktop\Project Technical Test 30 Desember 2023\ProjectXYZ\Technical Test\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\Muhammad Irfansyah\Desktop\Project Technical Test 30 Desember 2023\ProjectXYZ\Technical Test\bin\Debug\net6.0\BCrypt.Net-Next.dll
