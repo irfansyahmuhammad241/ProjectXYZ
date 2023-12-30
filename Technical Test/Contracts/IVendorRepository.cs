@@ -1,6 +1,8 @@
-﻿namespace Technical_Test.Contracts
+﻿using Technical_Test.Models;
+
+namespace Technical_Test.Contracts
 {
-    public interface IVendorRepository
+    public interface IVendorRepository : IGeneralRepository<Vendor>
     {
     }
 }

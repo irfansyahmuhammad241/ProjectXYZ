@@ -4,12 +4,10 @@ using Technical_Test.Models;
 
 namespace Technical_Test.Repositories
 {
-    public class ManagerLogisticsRepository : GeneralRepository<ManagerLogistics>, IManagerRepository
+    public class ManagerLogisticsRepository : GeneralRepository<ManagerLogistics>, IManagerLogistics
     {
         public ManagerLogisticsRepository(BookingDbContext context) : base(context)
         {
         }
-    }
-    {
     }
 }
